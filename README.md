@@ -23,3 +23,9 @@
 
 -   **유지보수성**과 **가독성**을 위해 로직을 분리하여 하나의 함수에 하나의 기능만 구현하는 패턴
 -   리팩토링의 일부
+
+## JS 파일 import - export
+
+1. 터미널 : yarn init 로 package.json 파일 생성
+2. package.json 에 "type" : "module" 추가
+3. import - export 사용 가능
