@@ -29,3 +29,7 @@
 1. 터미널 : yarn init 로 package.json 파일 생성
 2. package.json 에 "type" : "module" 추가
 3. import - export 사용 가능
+
+## Template Literal
+
+-   ``(백틱), ${} : 백틱을 이용하여 문자열에 표현식,변수를 문자열에 삽입 시키는 방법
