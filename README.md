@@ -33,3 +33,8 @@
 ## Template Literal
 
 -   ``(백틱), ${} : 백틱을 이용하여 문자열에 표현식,변수를 문자열에 삽입 시키는 방법
+
+## REST 파라미터
+
+-   Object를 구조분해할당시 const {money,hobby,...rest} = child
+-   rest는 child라는 객체에서 money와 hobby가 제외된 객체로 할당한다.
