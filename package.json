@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "express-start": "nodemon ./node-js/05-rest-api-with-axios/back/index.js",
-    "graphql-start": "nodemon ./node-js/05-graphql-api-with-apollo-server/index.js"
+    "graphql-start": "nodemon ./node-js/05-graphql-api-with-apollo-server-phone/index.js"
   },
   "dependencies": {
     "apollo-server": "^3.11.1",
