@@ -35,7 +35,10 @@ export async function sendTokenToSMS(myphone, token) {
     const mysms = coolsms.default;
 
     // apiKey, apiSecret 설정
-    const messageService = new mysms("API_KEY", "SECRET_KEY");
+    const messageService = new mysms(
+        process.env.API_KEY,
+        process.env.SECERET_KEY
+    );
     const result = await messageService.sendOne({
         to: "01012345678",
         from: myphone,
