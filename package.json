@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "express-start": "nodemon ./node-js/06-rest-api-with-sms/back/index.js",
+    "express-start": "nodemon ./node-js/06-rest-api-with-email/back/index.js",
     "graphql-start": "nodemon ./node-js/05-graphql-api-with-apollo-server-phone/index.js"
   },
   "dependencies": {
@@ -9,6 +9,7 @@
     "axios": "^1.2.3",
     "coolsms-node-sdk": "^2.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "graphql": "^16.6.0",
     "nodemon": "^2.0.20",
